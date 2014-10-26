@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mocha</title>
+    <link rel="stylesheet" href="http://mochajs.org/example/mocha.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="http://mochajs.org/example/mocha.js"></script>
+    <script src="http://mochajs.org/example/chai.js"></script>
+    <script>mocha.setup('bdd')</script>
+    <script>expect = chai.expect</script>
+    <script src="MinStack.js"></script>
+    <script src="TestMinStack.js"></script>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
